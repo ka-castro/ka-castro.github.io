@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>About Author | The Society's Téller</title>
+		<link href="https://fonts.googleapis.com/css2?family=Yeseva+One&family=Nunito" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<style>
+			body {
+				font-family: "Nunito";
+				}
+				
+			.webtitle {
+				font-size: 31px;
+				text-align: center;
+				font-family: "Yeseva One";
+				background: white;
+				color: #516360;
+				width: 350px;
+				margin-top: 0px;
+				position: fixed;
+				top: 0px;
+				left: 0px;
+				z-index: 9999;
+				}
+				
+			.navbar {
+				position: fixed;
+				top: 0px;
+				left: 350px;
+				z-index: 9999;
+				}
+				
+			.nav {
+				font-size: 15px;
+				text-align: center;
+				background-color: #cedbd8;
+				width: 1000px;
+				height: 35px;
+				}
+			
+			td a:link {
+				color: #516360;
+				text-decoration: none;
+				}
+			
+			td a:visited {
+				color: black;
+				text-decoration: none;
+				}
+				
+			td a:hover {
+				color: white;
+				text-decoration: none;
+				width: 0px;
+				height: 0px;
+				}
+			
+			td:hover{
+				background-color: #d3c6b7;
+				}
+			
+			.ctitle {
+				font-family: Yeseva One;
+				font-size: 70px;
+				font-weight: lighter;
+				color: #516360;
+				width: 650px;
+				position: absolute;
+				top: 61px;
+				left: 55px;
+				}
+			
+			.cauthor {
+				font-size: 18px;
+				position: absolute;
+				top: 259px;
+				left: 55px;
+				}
+				
+			.details {
+				font-size: 10px;
+				position: absolute;
+				top: 261.5px;
+				left: 360px;
+				}
+				
+			.imgtitle {
+				width: 700px;
+				height: 400px;
+				position: absolute;
+				top: 328px;
+				left: 53px;
+				}
+				
+			.para1 {
+				font-size: 20px;
+				text-indent: 50px;
+				width: 830px;
+				position: relative;
+				top: 773px;
+				left: 52px;
+				}
+			
+			a {
+				color: #a89f94;
+				}
+				
+			span {
+				color: #a89f94;
+				}
+
+			.checkout {
+				background: #d3c6b7;
+				width: 400px;
+				height: 200px;
+				position: relative;
+				top: 800px;
+				left: 50px;
+				transition: transform 1s;
+				}
+				
+			.checkout:hover {
+				transform: scale(1.05);
+				}
+				
+			h3 {
+				padding: 10px 10px 10px 10px;
+				margin-bottom: 0px;
+				}
+				
+			.check {
+				background: white;
+				width: 100px;
+				margin: 12px 0px 0px 17px;
+				padding: 10px 10px 10px 10px;
+				}
+				
+			.checka {
+				text-decoration: none;
+				color: black;
+				}
+				
+			.imgcheck {
+				width: 228px;
+				height: 137px;
+				margin-left: 151px;
+				margin-top: -118px;
+				}
+
+			footer {
+				width: 1335px;
+				position: absolute;
+				top: 1500px;
+				}
+			/*----------------------------------------DESKTOP---------------------------------------*/
+			@media only screen and (max-width: 1347%){
+			.webtitle {
+				font-size: 31px;
+				text-align: center;
+				width: 350px;
+				margin-top: 0px;
+				position: fixed;
+				top: 0px;
+				left: 0px;
+				z-index: 9999;
+				}
+
+			.nav {
+				font-size: 15px;
+				text-align: center;
+				width: 1000px;
+				height: 35px;
+				}
+			.ctitle {
+				font-family: Yeseva One;
+				font-size: 70px;
+				font-weight: lighter;
+				width: 650px;
+				position: absolute;
+				top: 61px;
+				left: 55px;
+				}
+			
+			.cauthor {
+				font-size: 18px;
+				position: absolute;
+				top: 259px;
+				left: 55px;
+				}
+				
+			.details {
+				font-size: 10px;
+				position: absolute;
+				top: 261.5px;
+				left: 360px;
+				}
+				
+			.imgtitle {
+				width: 700px;
+				height: 400px;
+				position: absolute;
+				top: 328px;
+				left: 53px;
+				}
+				
+			.para1 {
+				font-size: 20px;
+				text-indent: 50px;
+				width: 830px;
+				position: relative;
+				top: 773px;
+				left: 52px;
+				}
+			.checkout {
+				width: 400px;
+				height: 200px;
+				position: relative;
+				top: 800px;
+				left: 50px;
+				transition: transform 1s;
+				}
+			h3 {
+				padding: 10px 10px 10px 10px;
+				margin-bottom: 0px;
+				}
+				
+			.check {
+				width: 100px;
+				margin: 12px 0px 0px 17px;
+				padding: 10px 10px 10px 10px;
+				}
+			.imgcheck {
+				width: 228px;
+				height: 137px;
+				margin-left: 151px;
+				margin-top: -118px;
+				}
+
+			footer {
+				width: 1335px;
+				position: absolute;
+				top: 1500px;
+				}
+			}
+			/*----------------------------------------SAMSUNG GALAXY 10-----------------------------*/	
+				@media screen and (max-width: 360px) {
+					.webtitle {
+					padding: 4px 0px 0px 0px;
+					width: 100px;
+					height: 13px;
+					font-size: 9px;
+					}
+					.nav {
+					font-size: 8px;
+					width: 263px;
+					height: 10px;
+					margin: 0px 0px 0px -253px;
+					}
+					.ctitle {
+					font-size: 20px;
+					width: 213px;
+					top: 20px;
+					left: 25px;
+					}
+			
+					.cauthor {
+					font-size: 5px;
+					top: 74px;
+					left: 27px;
+					}
+				
+					.details {
+					font-size: 4px;
+					top: 70.5px;
+					left: 107px;
+					}
+					.imgtitle {
+					width: 181px;
+					height: 115px;
+					top: 100px;
+					left: 26px;
+					}
+					.para1 {
+					font-size: 9px;
+					text-indent: 21px;
+					width: 302px;
+					top: 221px;
+					left: 25px;
+					}
+					.checkout {
+					width: 205px;
+					height: 118px;
+					top: 222px;
+					left: 23px;
+					}
+					h3 {
+					font-size: 10px;
+					padding: 5px 5px 5px 5px;
+					margin-bottom: 10px;
+					}
+					.check {
+					font-size: 9px;
+					width: 58px;
+					margin: 0px 0px 0px 7px;
+					padding: 5px 5px 5px 5px;
+					}
+
+					.imgcheck {
+					width: 115px;
+					height: 88px;
+					margin-left: 83px;
+					margin-top: -69px;
+					}
+					footer {
+					font-size: 6px;
+					width: 360px;
+					top: 720px;
+					}
+				}
+				/*----------------------------------------IPAD PRO----------------------------->*/
+			@media screen and (max-width: 1024px){
+				.webtitle {
+					padding: 4px 0px 0px 0px;
+					width: 233px;
+					height: 24px;
+					font-size: 20px;
+				}
+				.nav {
+					font-size: 16px;
+					width: 789px;
+					height: 24px;
+					margin: 0px 0px 0px -116px;
+				}
+				.ctitle {
+					font-size: 71px;
+					width: 645px;
+					top: 7px;
+					left: 39px;
+				}
+			
+				.cauthor {
+					font-size: 18px;
+					top: 202px;
+					left: 43px;
+				}
+				.details {
+					font-size: 14px;
+					top: 197.5px;
+					left: 344px;
+				}
+				.imgtitle {
+					width: 650px;
+					height: 400px;
+					top: 256px;
+					left: 39px;
+				}
+				.para1 {
+					font-size: 20px;
+					text-indent: 50px;
+					width: 830px;
+					position: relative;
+					top: 669px;
+					left: 52px;
+				}
+				.checkout {
+					top: 666px;
+					left: 32px;
+				}
+				footer {
+					font-size: 10px;
+					width: 1024px;
+					top: 1450px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="webtitle">The Society's Téller</h1>
+		<div class="navbar">
+			<table class="nav">
+				<tr>
+					<td><a href="index.html">Homepage</a></td>
+					<td><a href="content.html">Content Archive</a></td>
+				</tr>
+			</table>
+		</div>
+		<div class="content">
+			<h1 class="ctitle">About the Author: Kellie Castro</h1>
+			<h2 class="cauthor">Published by: <a href="about.html">Kellie Aveneth I. Castro</a></h2>
+			<h3 class="details">Published on October 28, 2020</h3>
+			<img class="imgtitle" src="kellie.jpg" alt="kellie" title="Kellie Castro">
+			<div class="essay1">
+				<p class="para1">
+				Kellie Aveneth Castro, or simply Kellie or Kelle, is a 15 year-old student from Rizal, Philippines. 
+				She enjoys dancing, sleeping, reading, and basically everything nice. She writes essays or articles for school 
+				or for fun. Her recent essay, <a href="content.html">"The Issue on Diversity in STEM"</a>, is about the 
+				underrepresentation of the racially or ethnically different, as compared to white people, in STEM. 
+				In her essay, she provided possible solutions for the issue, in hopes of promoting diversity
+				and ending discrimination in society, particularly in the above-mentioned field. 
+				</p>
+			</div>
+		</div>
+		<a href="content.html" class="checka">
+		<div class="checkout">
+			<h3>Check out her essay below!</h3>
+			<p class="check">The Issue on Diversity in STEM by Kellie Castro</p>
+			<img class="imgcheck" src="https://news.northwestern.edu/assets/Stories/2018/11/_resampled/CroppedFocusedImageWzY0MCwzNjAsInkiLDMzXQ/DiverseSTEM.jpg" alt="Students doing laboratory works" title="Northwestern leads multi-university effort to increase diversity in STEM fields (Northwestern.edu)">
+		</div>
+		</a>
+		<footer>
+			<hr>
+			<p>Copyright &copy; 2020. The Society's Téller All Rights Reserved.</p>
+		</footer>
+	</body>
+</html>
